@@ -1,0 +1,34 @@
+.audi {
+  background-image: url(/src/assets/img/Audi.jpeg);
+}
+.mec {
+  background-image: url(/src/assets/img/mec.jpeg);
+}
+.bmw {
+  background-image: url(/src/assets/img/BMW-Danang-1.jpeg);
+}
+.volvo {
+  background-image: url(/src/assets/img/Volvo.jpeg);
+}
+.showroom-detail {
+  width: 260px;
+  margin-top: 20px;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+}
+.showroom-title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 450;
+  text-align: center;
+  text-decoration: none;
+}
+.showroom-title a {
+  color: #fff;
+}
+.showroom {
+  background-color: #4291bb;
+  height: 400px;
+}

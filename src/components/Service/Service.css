@@ -1,0 +1,54 @@
+.collum4 {
+  display: flex;
+  justify-content: space-between;
+}
+.car-verified {
+  margin-top: 20px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/assets/img/Car-Mechanic-1.jpeg);
+}
+.car-demand {
+  margin-top: 20px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/assets/img/car-demand.jpeg);
+}
+.car-search {
+  width: 180px;
+  margin-top: 20px;
+  height: 140px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/assets/img/carsearch.png);
+}
+.using-title {
+  width: 180px;
+  font-size: 15px;
+  font-weight: 450;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.using-title p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.service-title {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 450;
+  text-align: center;
+  text-decoration: none;
+}
+.service-title a {
+  color: #4291bb;
+}
+.service-title p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}

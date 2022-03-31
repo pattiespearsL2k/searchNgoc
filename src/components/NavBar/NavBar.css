@@ -1,0 +1,139 @@
+.navbar {
+  background-color: #222;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  color:whitesmoke;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 24px;
+  height: 100%;
+}
+.nav-item {
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: yellow;
+}
+
+/* .nav-item .active {
+  color: #ffdd40;
+  border: 1px solid #ffdd40;
+  border-radius: 4px;
+} */
+
+.nav-icon {
+  display: none;
+}
+.btn-custom {
+  background-color: #e99f41;
+  color: #fff;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.btn-custom:hover {
+  color: #fff;
+}
+@media screen and (max-width: 960px) {
+  .dropdown {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #4291bb;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    top: 70px;
+  }
+  /* .nav-item .active {
+    color: #ffdd40;
+    border: none;
+  } */
+  .nav-links {
+    padding: 20px;
+    width: 100%;
+    display: table;
+    font-size: 25px;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #e99f41;
+  }
+  .btn-custom {
+    font-size: 25px;
+    background-color: #4291bb;
+    padding: -10px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+  .btn-custom:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+
+  .btn-custom:hover:after {
+    width: 100%;
+    background: yellow;
+  }
+}

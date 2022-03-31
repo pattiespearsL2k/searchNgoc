@@ -1,0 +1,48 @@
+.col-up {
+  width: 530px;
+}
+.col-down {
+  width: 350px;
+}
+.car-img {
+  opacity: 1;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.car-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  background-color: #4291bb;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  width: 100%;
+}
+.car-title a {
+  text-decoration: none;
+
+  color: #fff;
+}
+.family {
+  background-image: url(/src/assets/img/ee88b74994d2469c945f0128bcef0caa.jpeg);
+}
+.company {
+  background-image: url(/src/assets/img/businesscar.jpg);
+}
+.small-car {
+  background-image: url(/src/assets/img/smallcar1.jpeg);
+}
+.saving-car {
+  background-image: url(/src/assets/img/savingcar3.jpeg);
+}
+.service-car {
+  background-image: url(/src/assets/img/servicecar3.jpeg);
+}

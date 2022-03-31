@@ -1,0 +1,32 @@
+.filter-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.filter-select-container {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+.filter-title {
+  margin-bottom: -26px;
+  text-align: left;
+  font-size: 20px;
+}
+.filter-input {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 16px;
+}
+.filter-button {
+  height: 40px;
+  margin-bottom: 9px;
+  width: 150px;
+  background-color: #e99f41;
+  border-radius: 5px;
+  border-color: #e99f41;
+}
